@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/style.css">
+     
+</head>
+<body>
+    <div id="div1">
+        <form action="">
+            <div id="div2">
+                Title 
+                <br>
+                <label>
+                    <input type="radio" name="title" value="mister"> Mister
+                </label><br>
+                <label>
+                    <input type="radio" name="title" value="miss"> Miss
+                </label>
+            </div>
+            <label for="Name">
+                Name:* <input type="text" id="Name"name="name" >
+            </label><br>
+
+            <label for="Email">
+                Email:* <input type="text" id="Email" name="email">
+            </label><br>
+
+            <label for="card" id="cd"  >Card type: </label>
+                <select id="card" name="card">
+                    <option value="visa">Visa</option>
+                    <option value="mastercard">MasterCard</option>
+                    <option value="discover">Discover</option>
+                </select>
+            <br>
+            <div id="div4">
+            <button id="add">Add</button>  
+            </div>
+            <label for="search">
+                Search: <input type="text" id="search" placeholder="search by Name">
+            </label><br>
+            
+
+
+        </form>
+
+        <div id="div3">
+            <p id="p1">List of Users</p>
+            <table id="tb1">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Card</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                </tbody>
+        
+                <tfoot>
+                    <tr>
+                    <td colspan="5"><strong>Number of Users </strong></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+
+    </div>
+    <script src="../main.js"></script>
+</body>
+</html>
