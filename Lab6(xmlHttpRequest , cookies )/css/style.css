@@ -1,0 +1,46 @@
+#div1 {
+  width: 600px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid #005e98;
+  width: 300px;
+   
+}
+
+#imgSlide {
+  max-width: 100%;
+  height: auto;
+}
+
+#div3 {
+  background: #005e98;
+  color: white;
+  margin-left: 800px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px  white solid;
+  width: 300px;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+#div2 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#div2 button {
+  padding: 6px 12px;
+  margin: 3px;
+  font-size: 14px;
+  border: none;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+ 
