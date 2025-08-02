@@ -22,8 +22,8 @@ function addTable(userList){
                 `;
                  tableBody.appendChild(tr);       
     });
-    // var footer = document.querySelector("#tb1 tfoot td");
-    // footer.innerHTML = `<strong>Number of Users: ${userList.length}</strong>`;
+    var footer = document.querySelector("#tb1 tfoot td");
+    footer.innerHTML = `<strong>Number of Users: ${userList.length}</strong>`;
 }
 
 addBtn.addEventListener("click",function(){
