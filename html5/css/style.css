@@ -1,0 +1,46 @@
+header, nav, main, aside, footer ,section{
+      padding: 20px;
+      text-align: center;
+      background-color: #e0e0e0;
+      border: 1px solid #ccc;
+      margin: 10px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 25px;
+}
+nav {
+      background-color: #d0d0d0;
+    }
+
+.section {
+    display: flex;
+}
+#sec{
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    flex: 1;
+    text-align: center;
+    background-color: #9be1fa;
+    font-size: 25px;
+}
+aside {
+
+    flex: 1;
+    background-color: #c0c0c0;
+}
+main {
+      flex: 2;
+}
+   
+footer {
+      background-color: #c0c0c0;
+}
+
+#p1{
+display: flex;
+font-size: 150px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+align-items: center;
+justify-content: center;
+}
