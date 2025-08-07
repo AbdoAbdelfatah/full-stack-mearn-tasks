@@ -1,0 +1,97 @@
+ 
+ /* Change color   */
+    #left-eye:hover {
+      fill: red !important;
+      cursor: pointer;
+    }
+
+    #right-eye:hover {
+      fill: red !important;
+      cursor: pointer;
+    }
+
+    #mouth-left:hover {
+      fill: blue !important;
+      cursor: pointer;
+    }
+
+    #mouth-right:hover {
+      fill: blue !important;
+      cursor: pointer;
+    }
+    #smile-curve:hover {
+      stroke: green !important;
+      cursor: pointer;
+    }
+
+    /* Optional: Smooth transition */
+    #left-eye,
+    #right-eye,
+    #mouth-left,
+    #mouth-right,
+    #smile-curve {
+      transition: fill 0.3s ease;
+    }
+
+
+
+
+/* video player*/
+
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.video-container {
+  display: inline-block;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.controls {
+  margin-top: 10px;
+}
+
+button {
+  padding: 8px 12px;
+  margin-right: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+input[type="range"] {
+  vertical-align: middle;
+}
+
+progress {
+  width: 100%;
+  height: 10px;
+  margin-top: 10px;
+}
+
+.playlist {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.playlist ul {
+  list-style: none;
+  padding: 0;
+}
+
+.playlist li {
+  cursor: pointer;
+  padding: 5px;
+  background: #eee;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+.playlist li:hover {
+  background: #ddd;
+}
